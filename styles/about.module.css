@@ -1,0 +1,21 @@
+.TechStack {
+    margin-top: 80px;
+    display: grid;
+    gap: 13px;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    justify-items: center;
+}
+
+.SeriesMovie {
+    margin-top: 80px;
+    display: grid;
+    gap: 13px;
+    grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+}
+
+@media (max-width: 768px) {
+    .SeriesMovie {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
